@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+.hero{
+    background-image: url('../../imgs/logoRocks.png');
+    background-position: center;
+    mix-blend-mode: hard-light;
+    height: 100vh;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+  
+  .hero-title {
+    background-color: #bf5b3f;
+    position: absolute;
+    mix-blend-mode: hard-light;
+    height: 20vh;
+    width: 100%;
+    font-size: 15vmin;
+    line-height: 10vmin;
+    user-select: none;
+    color: #E9E5E4 !important;
+    font-family: "Bungee Hairline", cursive;
+  }
+  
+  .hero-cta {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    padding: 18px 30px;
+    background-color: #bf5b3f;
+    mix-blend-mode: hard-light;
+    color: #E9E5E4 !important;
+    font-family: "Bungee Hairline", cursive;
+    font-size: 5vmin;
+    font-weight: bold;
+  }

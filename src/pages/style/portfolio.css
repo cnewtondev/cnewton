@@ -1,0 +1,52 @@
+.port{
+    position: relative;
+    background-color: green;
+    height: 200vh;
+    width: 100%;
+    text-align: center;
+}
+
+.pDiv{
+    background-color: blue !important;
+    margin-top: 20px !important;
+}
+
+.outlineText {
+	position: absolute;
+	margin-top: 20vmin ;
+	margin-left: 100px ;
+	z-index: 3 ;
+	font-size: 20vmin ;
+	font-weight: 600 ;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: ghostwhite;
+	color: transparent;	
+}
+
+.image {
+	position: absolute;
+	z-index: 2;
+    margin-top: 20vmin;
+	height: 30vmin ;
+	width: auto ;
+}
+
+.outlineTextTwo {
+	position: absolute;
+	margin-top: 20vmin ;
+	margin-left: 100px ;
+	z-index: 3 ;
+	font-size: 20vmin ;
+	font-weight: 600 ;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: ghostwhite;
+	color: transparent;	
+}
+
+.imageTwo {
+	position: absolute;
+	z-index: 2;
+    margin-top: 20vmin;
+	height: 30vmin ;
+	width: auto ;
+}
